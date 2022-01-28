@@ -1,0 +1,78 @@
+body {
+    background-color: #000;
+    transition: background-color 2s;
+}
+.hint {
+    font-family: sans-serif;
+    font-weight: 100;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    transition: top 2s;
+
+    display: flex;
+
+    height: 100px;
+    padding: 4em;
+    margin-bottom: 50px;
+
+    background-color: #fff8;
+
+    align-items: center;
+}
+/* MEDIA QUERIES */
+    /* COLORS */
+@media (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+@media (min-width: 600px) {
+    body {
+        background-color: orange;
+    }
+}
+@media (min-width: 650px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media (min-width: 700px) {
+    body {
+        background-color: green;
+    }
+}
+@media (min-width: 750px) {
+    body {
+        background-color: blue;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        background-color: indigo;
+    }
+}
+@media (min-width: 850px) {
+    body {
+        background-color: purple;
+    }
+}
+    /* BOX ALIGNMENT */
+@media (max-height: 550px) {
+    .hint {
+        top:0%
+        
+    }
+}
+@media (min-height: 550px) {
+    .hint {
+        top:33%
+    }
+}
+@media (min-height: 650px) {
+    .hint {
+        top: 66%;
+    }
+}
